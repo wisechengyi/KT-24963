@@ -8,6 +8,7 @@ should work. Note that all build artifacts are under `build/projects/<project pa
 
 ## 2. Now, symlink build/ to somewhere else. E.g.
 ```
+rm -rf /tmp/build && \
 rm -rf build/ && \
 mkdir -p /tmp/build && \
 ln -s /tmp/build build
