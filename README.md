@@ -4,7 +4,7 @@
 ```
 gr lib:squabble:kaptKotlin
 ```
-should work.
+should work. Note that all build artifacts are under `build/projects/<project path>/`
 
 ## 2. Now, symlink build/ to somewhere else. E.g.
 ```
