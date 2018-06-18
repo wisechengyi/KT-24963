@@ -2,7 +2,7 @@
 
 ## 1. Sanity check
 ```
-gr lib:squabble:kaptKotlin
+./gradlew lib:squabble:kaptKotlin
 ```
 should work. Note that all build artifacts are under `build/projects/<project path>/`
 
