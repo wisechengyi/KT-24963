@@ -1,9 +1,9 @@
 
-ext.kotlin_version = '1.2.50'
+ext.kotlin_version = '1.2.40'
 
 buildscript {
 
-    ext.kotlin_version = '1.2.50'
+    ext.kotlin_version = '1.2.40'
 
     repositories {
         google()
@@ -34,6 +34,7 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     kapt project(':lib:auto')
+    implementation project(':lib:auto')
 }
 compileTestKotlin {
     kotlinOptions {

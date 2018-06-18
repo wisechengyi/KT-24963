@@ -6,6 +6,7 @@ import javax.annotation.processing.RoundEnvironment
 import javax.annotation.processing.SupportedSourceVersion
 import javax.lang.model.SourceVersion
 import javax.lang.model.element.TypeElement
+import com.example.annotation.processor.auto.service.AutoService
 
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @AutoService(Processor::class)
